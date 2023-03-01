@@ -1,0 +1,22 @@
+.wrapper{
+    width: 100%;
+    background-color: grey;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
+/* HEADER */
+header img{
+    width: 40px;
+}
+.side-bar{
+    height: calc(100vh);
+    background-color: blue;
+    width: 50px;
+}
