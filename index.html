@@ -17,9 +17,18 @@
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid">
               <div class="input-group">
-                <img src="./img/mobile-logo.png" alt="">
-                <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="logo d-flex align-items-center px-2">
+                  <img class="logo-mobile d-lg-none" src="./img/mobile-logo.png" alt="">
+                  <img class="logo-dekstop p-2 d-none d-lg-block" src="./img/logo.svg" alt="">
+                </div>
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="navbar-icons d-flex align-items-center">
+                  <i class="fa-solid fa-list-ul px-2 d-none d-lg-block"></i>
+                  <i class="fa-solid fa-circle-question px-2 d-none d-lg-block"></i>
+                  <i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-block"></i>
+                  <i class="fa-solid fa-bell px-2"></i>
+                </div>
               </div>
             </form>
           </nav>
@@ -35,13 +44,13 @@
     <div class="wrapper d-flex">
 
         <!-- side bar -->
-        <div class="side-bar pt-5 mt-2">
+        <div class="side-bar pt-5 mt-3">
             <i class="fa-solid fa-house"></i>
         </div>
         <!-- /sidebar -->
 
        <!-- main content -->
-        <div class="main_content overflow-y-auto pt-5 mt-2">
+        <div class="main_content overflow-y-auto pt-5 mt-3">
 
             <!-- main header -->
                 <div class="container-fluid main_header">

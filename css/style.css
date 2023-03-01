@@ -6,13 +6,26 @@ header{
     width: 100%;
 
 }
-img{
-    width: 100%;
-}
+
 
 /* HEADER */
-header img{
-    width: 40px;
+.logo-mobile{
+    width: 50px;
+}
+.logo-dekstop{
+    height: 50px;
+}
+.input-group{
+    background-color: white;
+}
+.input-group-text,
+.form-control{
+    background-color: rgb(201, 201, 201);
+    border: 0;
+    border-radius: 10px;
+}
+.fa-bell{
+    color: goldenrod;
 }
 
 /* main content */
