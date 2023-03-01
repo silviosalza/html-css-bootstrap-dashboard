@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- my style -->
@@ -13,11 +17,12 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- *HEADER -->
     <header class="position-fixed position-absolute z-3">
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid">
               <div class="input-group">
-                <div class="logo d-flex align-items-center px-2">
+                <div class="logo d-flex align-items-center ps-1 pe-4">
                   <img class="logo-mobile d-lg-none" src="./img/mobile-logo.png" alt="">
                   <img class="logo-dekstop p-2 d-none d-lg-block" src="./img/logo.svg" alt="">
                 </div>
@@ -32,23 +37,27 @@
               </div>
             </form>
           </nav>
-        
-        
     </header>
-
-
-
-
-
+  <!-- */HEADER -->
 
     <div class="wrapper d-flex">
-
-        <!-- side bar -->
-        <div class="side-bar pt-5 mt-3">
-            <i class="fa-solid fa-house"></i>
+        <!-- *SIDE BAR SECTION -->
+      <section>
+        <div class="side-bar d-flex flex-column justify-content-between">
+          <div class="top-sidebar pt-5 mt-5 d-flex flex-column align-items-center">
+              <span class="pb-3"><i class="fa-solid fa-house"></i><p class="ps-2 d-none d-lg-inline-block"> Home</p></span>
+              <span class="pb-3"><i class="fa-solid fa-chart-simple"></i><p class="ps-2 d-none d-lg-inline-block"> Stats</p> </span>
+              <span><i class="fa-solid fa-signal"></i><p class="ps-2 d-none d-lg-inline-block">Signals</p></span>
+          </div>
+          <div class="bottom-sidebar pb-2 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-gear"></i><span class="ps-2 d-none d-lg-inline-block">Admin</span>
+          </div>
         </div>
-        <!-- /sidebar -->
+      </section>
+        <!-- */SIDEBAR SECTION -->
 
+
+        
        <!-- main content -->
         <div class="main_content overflow-y-auto pt-5 mt-3">
 
