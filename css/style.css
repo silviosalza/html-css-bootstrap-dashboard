@@ -87,6 +87,10 @@ header{
 .table{
     border-radius: 0 0 10px 10px;
 }
+.table img{
+    width: 25px;
+}
+
 
 .card-body,
 .list-group li{
