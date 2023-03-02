@@ -71,15 +71,75 @@
 
                         <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                           <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
                           <div class="offcanvas-body">
-                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                            <form class="row g-3">
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Nome</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Mario">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Cognome</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Rossi">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="mariorossi@gmail.com">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Corso Italia">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="inputCity">
+                              </div>
+                              <div class="col-md-4">
+                                <label for="inputState" class="form-label">Pianeta</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Scegli...</option>
+                                  <option>Terra</option>
+                                  <option>Marte</option>
+                                  <option>Saturno</option>
+                                  <option>Giove</option>
+                                  <option>Venere</option>
+                                  <option>Plutone</option>
+                                  <option>Mercurio</option>
+                                  <option>Urano</option>
+                                  <option>Sul Sole dubito</option>
+                                </select>
+                              </div>
+                              <div class="col-md-2">
+                                <label for="inputZip" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                              <div class="mb-3">
+                                <label for="formFile" class="form-label">Foto</label>
+                                <input class="form-control" type="file" id="formFile">
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                  <label class="form-check-label" for="gridCheck">
+                                    Seleziona per proseguire
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <button type="submit" class="btn btn-dark">Salva</button>
+                                <button type="submit" class="btn btn-warning">Svuota</button>
+                              </div>
+                            </form>
                           </div>
                         </div>
                       </div>
-                      
+
                       <div class="col-12 col-md-4 col-lg-6">
                           <h2 class="d-inline-block">Boolean</h2><a class="tag-btn" href="">Piano blaze</a>
                           <div>

@@ -33,6 +33,7 @@ header{
     color: goldenrod;
 }
 
+
 /* MAIN CONTENT */
 /* sidebar */
 .side-bar{
@@ -68,6 +69,7 @@ header{
     font-size: 0.6rem;
     margin: 0 2px;
 }
+
 .sect-title{
     width: 100%;
     background-color: rgb(235, 235, 235);
