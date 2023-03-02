@@ -65,9 +65,21 @@
                 <div class="container-fluid main_header">
                     <div class="row pt-4 row-gap-4">
                       <div class="col-12 col-md-4 col-lg-3 order-md-last">
-                          <div>Nuovo Studente<a class="btn btn-primary px-3 mx-3" role="button" aria-disabled="true">+</a>
+                        <!-- btn with offcanvas page -->
+                        <span class="pe-2">Nuovo Studente</span>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">+</button>
+
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
+                          <div class="offcanvas-body">
+                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                          </div>
+                        </div>
                       </div>
+                      
                       <div class="col-12 col-md-4 col-lg-6">
                           <h2 class="d-inline-block">Boolean</h2><a class="tag-btn" href="">Piano blaze</a>
                           <div>
