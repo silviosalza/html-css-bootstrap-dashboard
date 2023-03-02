@@ -40,8 +40,8 @@ header{
 .side-bar{
     height: calc(100vh);
     background-image: url(../img/sidebar-bg.png);
-    background-position-y:-25%;
     background-color: #051E34;
+    background-position: 50%;
     width: 75px;
     color: white;
 }
@@ -70,8 +70,6 @@ header{
     font-size: 0.6rem;
     margin: 0 2px;
 }
-
-
 .sect-title{
     width: 100%;
     background-color: rgb(235, 235, 235);
@@ -82,6 +80,7 @@ header{
     font-weight: 700;
 }
 
+/* table */
 .list-group,
 .card,
 .table{
@@ -90,8 +89,19 @@ header{
 .table img{
     width: 25px;
 }
+td>.btn{
+    font-size: 0.5rem;
+    color: white;
+}
+td>i{
+    border: solid 1px black;
+    border-radius: 3px;
+}
+tr :not(:first-child){
+    text-align: center;
+}
 
-
+/* card */
 .card-body,
 .list-group li{
     font-size: 0.8rem;
