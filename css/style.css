@@ -13,7 +13,6 @@ header{
     width: 100%;
 }
 
-
 /* HEADER */
 .logo-mobile{
     width: 50px;
@@ -35,13 +34,12 @@ header{
 }
 
 /* MAIN CONTENT */
-
 /* sidebar */
 .side-bar{
     height: calc(100vh);
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    background-position: 50%;
+    background-position-y: -50%;
     width: 75px;
     color: white;
 }
@@ -111,14 +109,37 @@ tr :not(:first-child){
     color: #1B72E8;
 }
 
-
+/* !MEDIA QUERY */
 @media screen and (min-width:992px) {
     .side-bar{
         width: 150px;
-    }
-    
+    }    
 }
 
+/* !HOVER */
 
+tr:hover{
+    background-color: aliceblue;
+}
+td i:hover{
+    background-color: black;
+    color: white;
+}
+td .btn:hover{
+    color: white;
+}
+.tag-btn:hover{
+    background-color: #5085cf;
+}
+.navbar-icons i:hover{
+    filter: saturate(200);
+}
+#basic-addon1:hover{
+    font-size: 1.2rem;
+}
+.side-bar span:hover{
+    background-color: aliceblue;
+    color: black;
+}
 
 
